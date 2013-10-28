@@ -34,6 +34,7 @@ setup(name='edem.content.email.css',
     install_requires=[
         'setuptools',
         'edem.skin',
+        'gs.viewlet',
         'gs.content.email.css',
         # -*- Extra requirements: -*-
     ],

@@ -1,0 +1,9 @@
+<tal:block>
+/* E-Democracy CSS */
+
+/* Container/Background */
+#gs-content-email-layout-container{
+    background-color: #dadada;
+}
+
+</tal:block>

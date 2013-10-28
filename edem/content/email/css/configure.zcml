@@ -3,5 +3,14 @@
   xmlns:browser="http://namespaces.zope.org/browser"
   xmlns:five="http://namespaces.zope.org/five">
 
+  <browser:viewlet
+    name="edem-content-email-css-core"
+    manager="gs.content.email.css.interfaces.IHTMLEmailStyle"
+    class="gs.viewlet.SiteViewlet"
+    template="browser/templates/core.pt"
+    title="E-Democracy Core CSS"
+    weight="25" 
+    permission="zope2.Public"/>
+
 </configure>
 
