@@ -1,0 +1,12 @@
+<tal:block>
+/* E-Democracy Page Layout */
+#gs-content-email-layout-prebody {
+    border-bottom: thin solid black;
+}
+
+#toparea {
+    background: none;
+    border-bottom: none;
+}
+
+</tal:block>

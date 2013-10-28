@@ -9,8 +9,19 @@
     class="gs.viewlet.SiteViewlet"
     template="browser/templates/core.pt"
     title="E-Democracy Core CSS"
-    weight="25" 
-    permission="zope2.Public"/>
+    weight="21" 
+    permission="zope2.Public"
+    layer="edem.skin.interfaces.IEDemLayer"/>
+
+  <browser:viewlet
+    name="edem-content-email-css-layout"
+    manager="gs.content.email.css.interfaces.IHTMLEmailStyle"
+    class="gs.viewlet.SiteViewlet"
+    template="browser/templates/layout.pt"
+    title="E-Democracy Layout CSS"
+    weight="31"
+    permission="zope2.Public"
+    layer="edem.skin.interfaces.IEDemLayer"/>
 
 </configure>
 
