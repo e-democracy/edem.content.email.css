@@ -1,9 +1,9 @@
 <tal:block>
 /* E-Democracy CSS */
 
-/* Container/Background */
-#gs-content-email-layout-container{
-    background-color: #dadada;
+h2{
+    color: #3a91b5;
+    border-bottom: 0.063em solid #3a91b5;
 }
 
 </tal:block>

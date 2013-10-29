@@ -1,12 +1,43 @@
 <tal:block>
 /* E-Democracy Page Layout */
-#gs-content-email-layout-prebody {
-    border-bottom: thin solid black;
+
+/* Container/Background */
+#gs-content-email-layout-container{
+    background-color: #dadada;
+    padding: 2em;
 }
 
 #toparea {
     background: none;
     border-bottom: none;
+    color: #3a91b5;
 }
+
+#titlebar .site{
+    margin-left: 0;
+}
+
+#bodyblock{
+    padding: 0.625em 2em;
+}
+
+/* The Footer */
+#gs-content-layout-footer {
+    background: #ffffff;
+    height: 2em;
+    border-top: none;
+    padding: 0 2em 2em; 
+} 
+
+#gs-content-layout-footer-content{
+    border-top: 0.063em solid #3a91b5;
+}
+
+#gs-content-layout-footer a, 
+#gs-content-layout-footer a:hover, 
+#gs-content-layout-footer a:focus, 
+#gs-content-layout-footer a:visited {
+    text-decoration: none;
+} 
 
 </tal:block>
