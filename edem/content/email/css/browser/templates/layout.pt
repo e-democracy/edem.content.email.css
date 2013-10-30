@@ -21,6 +21,22 @@
     padding: 0.625em 2em;
 }
 
+/* Indentation of notification content*/
+#bodyblock>*>p,
+#bodyblock>*>div{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#bodyblock * h3,
+#bodyblock * h4,
+#bodyblock * h5,
+#bodyblock * h6,
+#bodyblock>*>blockquote{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 /* The Footer */
 #gs-content-layout-footer {
     background: #ffffff;
