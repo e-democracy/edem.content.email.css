@@ -23,7 +23,8 @@
 
 /* Indentation of notification content*/
 #bodyblock>*>p,
-#bodyblock>*>div{
+#bodyblock>*>div,
+#bodyblock>*>dl{
     padding-left: 2em;
     padding-right: 2em;
 }
