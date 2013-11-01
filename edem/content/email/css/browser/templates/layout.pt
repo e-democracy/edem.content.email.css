@@ -4,10 +4,12 @@
 /* Container/Background */
 #gs-content-email-layout-container{
     background-color: #dadada;
-    padding: 2em;
+    padding: 2em 3%;
 }
 
 #toparea {
+    height: auto;
+    padding-bottom: 2em;
     background: none;
     border-bottom: none;
     color: #3a91b5;
@@ -18,15 +20,15 @@
 }
 
 #bodyblock{
-    padding: 0.625em 2em;
+    padding: 0.625em 3%;
 }
 
 /* Indentation of notification content*/
 #bodyblock>*>p,
 #bodyblock>*>div,
 #bodyblock>*>dl{
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 #bodyblock * h3,
@@ -34,8 +36,8 @@
 #bodyblock * h5,
 #bodyblock * h6,
 #bodyblock>*>blockquote{
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 /* The Footer */
@@ -43,7 +45,7 @@
     background: #ffffff;
     height: 2em;
     border-top: none;
-    padding: 0 2em 2em; 
+    padding: 0 3% 2em; 
 } 
 
 #gs-content-layout-footer-content{
