@@ -3,7 +3,7 @@
 
 /* Container/Background */
 #gs-content-email-layout-container{
-    background-color: #dadada;
+    background-color: #125882;
     padding: 2em 3%;
 }
 
@@ -12,7 +12,7 @@
     padding-bottom: 2em;
     background: none;
     border-bottom: none;
-    color: #3a91b5;
+    color: #FFF;
 }
 
 #titlebar .site{

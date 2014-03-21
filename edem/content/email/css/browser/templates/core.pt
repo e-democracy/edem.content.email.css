@@ -2,8 +2,8 @@
 /* E-Democracy CSS */
 
 h2{
-    color: #3a91b5;
-    border-bottom: 0.063em solid #3a91b5;
+    color: #000;
+    border-bottom: 0.063em solid #000;
 }
 
 </tal:block>
